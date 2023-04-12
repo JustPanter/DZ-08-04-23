@@ -1,0 +1,15 @@
+﻿Console.WriteLine("Введите первое значение ");
+int A = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите второе значение ");
+int B = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите третье значение ");
+int C = int.Parse(Console.ReadLine());
+int max = B;
+int min = A;
+    if (A > max) max = A;
+    if (B > max) max = B;
+    if (C > max) max = C;
+    if (A < min) min = A;
+    if (B < min) min = B;
+    if (C < min) min = C;
+Console.WriteLine("Наибольшее значение = " + max);
